@@ -1,0 +1,21 @@
+//C++
+
+#include <iostream>
+
+void function (std::string name){
+    std::cout << "The name of the person is " + name << std::endl;
+}
+
+int main ()
+{
+    function("Harry");
+    return 0;
+}
+
+
+//PYTHON
+
+def fun(name) :
+    print(f"You name is {name}")
+    
+fun("Harry")
